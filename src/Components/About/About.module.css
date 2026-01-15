@@ -18,14 +18,16 @@ strong {
 
 .extendContent {
   margin: 4px 0 0;
-  color: var(--accent-primary);
+  /* color: var(--accent-primary); */
+  color: #60a5fa;
   font-family: "poppins", "Roboto", sans-serif;
   padding: 0 0 0 5px;
   text-decoration: underline;
   cursor: pointer;
 }
 .extendContent:hover {
-  color: var(--accent-secondary);
+  /* color: var(--accent-secondary); */
+  color: #93c5fd;
 }
 
 .extraContent {

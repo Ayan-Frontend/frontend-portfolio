@@ -64,9 +64,8 @@ const About = () => {
                       </span>
                     </h1>
                     <p className="subtitle">
-                      A passionate{" "}
-                      <strong>Java Full Stack Web Developer</strong> currently
-                      pursuing my{" "}
+                      A passionate <strong>Frontend Web Developer</strong>{" "}
+                      currently pursuing my{" "}
                       <strong>Diploma in Computer Science Engineering</strong>{" "}
                       (5th Semester) .
                     </p>
@@ -85,25 +84,30 @@ const About = () => {
                       <span className="ms-1 ps-1">
                         I specialize in crafting{" "}
                         <strong>
-                          responsive, scalable, and performance-driven web
-                          applications
+                          responsive, scalable, and performance-driven user
+                          interfaces
                         </strong>{" "}
-                        with clean UI and efficient backend logic. My
-                        development stack bridges both worlds —
+                        with clean design, smooth interactions, and efficient
+                        state management. My development approach focuses on
+                        creating engaging frontend experiences while ensuring
+                        seamless integration with backend systems.
                       </span>
                     </p>
 
                     <ul className={style.stackList}>
                       <div className={style.stackListCont}>
                         <li>
-                          <strong>Frontend</strong>
+                          <strong>Frontend</strong> :{" "}
+                          <span>React, Tailwind CSS</span>
                         </li>
-                        <li>
-                          <strong>Backend</strong>
+                        <li className="mt-lg-2">
+                          <strong>Backend</strong> :{" "}
+                          <span>Java, REST APIs, MySQL</span>
                         </li>
                       </div>
                       <li>
-                        <strong>Tools:</strong> Git & GitHub for version control
+                        <strong>Tools</strong> : Git & GitHub for version
+                        control
                       </li>
                     </ul>
 
@@ -112,9 +116,10 @@ const About = () => {
                         <FaLightbulb style={{ color: "yellow" }} />
                       </span>{" "}
                       <span className="ms-1 ps-1">
-                        I’m driven by curiosity and creativity — turning complex
-                        ideas into clean, functional, and visually appealing
-                        solutions.
+                        I’m driven by <strong>curiosity and creativity</strong>
+                        —transforming complex ideas into clean, functional, and
+                        visually appealing web interfaces that users enjoy
+                        interacting with.
                       </span>
                     </p>
                     <p className="d-flex">
@@ -122,11 +127,17 @@ const About = () => {
                         <FaCogs />
                       </span>
                       <span className="ms-1 ps-1">
-                        With strong fundamentals in Java,{" "}
-                        <strong>OOP concepts</strong>, and modern web
-                        architecture, I build{" "}
-                        <strong>robust, maintainable</strong>, and{" "}
-                        <strong> user-focused applications</strong>.
+                        With strong fundamentals in{" "}
+                        <strong>
+                          JavaScript, React architecture, component-based
+                          design, and modern UI/UX principles
+                        </strong>
+                        , I build{" "}
+                        <strong>
+                          maintainable, scalable, and user-focused frontend
+                          applications
+                        </strong>
+                        .
                       </span>
                     </p>
                     <p className="d-flex">
@@ -134,10 +145,9 @@ const About = () => {
                         <FaSeedling style={{ color: "#28A745" }} />
                       </span>{" "}
                       <span className="ms-1 ps-1">
-                        I’m constantly learning and refining my skills —
-                        exploring new tools, contributing to{" "}
-                        <strong>projects,</strong> and
-                        <strong> coding</strong> with <strong>purpose</strong>.{" "}
+                        I’m constantly learning and refining my skills—exploring
+                        new frontend tools, improving performance, contributing
+                        to projects, and writing clean, purposeful code.{" "}
                         <span
                           className={`${showMore && "d-none"} ${
                             style.extendContent
@@ -157,20 +167,13 @@ const About = () => {
                     showMore ? style.show : style.hide
                   }`}
                 >
-                  I am passionate about what I do and driven by a constant
-                  desire to <strong>grow</strong>. I actively explore{" "}
-                  <strong>new frameworks, tools, and methodologies</strong> to
-                  sharpen my skills and deliver{" "}
-                  <strong>innovative, scalable solutions </strong>
-                  that stand the test of time.
-                  <br />
-                  <span className="d-block pt-2 mt-1">
-                    My goal is to become a <strong>versatile developer</strong>{" "}
-                    who not only crafts{" "}
-                    <strong>high-quality applications</strong> but also{" "}
-                    <strong>drives innovation</strong> by creating
-                    <strong> digital products</strong> that solve real problems
-                    and <strong>enrich user experiences</strong>.{" "}
+                  <span>
+                    I’m deeply passionate about frontend development and
+                    motivated by continuous growth. My goal is to become a{" "}
+                    <strong>versatile Frontend Developer</strong> who builds
+                    high-quality digital experiences and contributes to
+                    innovative products that solve real-world problems and
+                    enhance user interaction.{" "}
                     <span
                       className={` ${style.extendContent}`}
                       onClick={() => setShowMore(!showMore)}
