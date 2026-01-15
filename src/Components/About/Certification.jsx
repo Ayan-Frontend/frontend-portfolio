@@ -25,8 +25,8 @@ const Certification = () => {
               Gained hands-on training in Python fundamentals, including loops,
               OOP, and modules, enhancing my logical problem-solving skills as a
               Diploma fresher.
-              <span className="d-block mt-2">
-                my core expertise as a Java Full Stack Web Developer
+              <span className="d-block mt-4 pt-2">
+                My core expertise as a Frontend Developer
               </span>
             </p>
             <div className=" d-flex justify-content-around">
