@@ -54,7 +54,7 @@ const Home = () => {
                 <div className={style.homeContentContainer}>
                   <h1 className={style.homeContHds1}>Hi 👋, I’m Ayan Alam</h1>
                   <h2 className={style.homeContHds2}>
-                    Full Stack Web Developer, <br />{" "}
+                    Frontend Developer (React | Redux) <br />{" "}
                     <span
                       className="d-block mt-1"
                       style={{ color: darkMode ? "#fff" : "#000" }}
@@ -62,29 +62,30 @@ const Home = () => {
                       <Typewriter
                         options={{
                           strings: [
-                            `<span style="color:var(--bracket)">(</span><span style="color:var(--accent-secondary)">React/Redux, Java</span><span style="color:var(--bracket)">)</span>`,
-                            `<span style="color:var(--accent-secondary)">UI/UX Designer</span>`,
+                            `<span style="color:var(--accent-secondary)">Performance-Driven UI</span>`,
+                            `<span style="color:var(--accent-secondary)">Java Backend Exposure</span>`,
                           ],
                           autoStart: true,
                           loop: true,
-                          delay: 107, // typing speed
-                          deleteSpeed: 65, // backspace speed
-                          pauseFor: 1700, // pause before deleting
+                          delay: 80, // typing speed
+                          deleteSpeed: 55, // backspace speed
+                          pauseFor: 2500, // pause before deleting
                         }}
                       />
                     </span>
                   </h2>
                   <p className={style.homeContPara}>
-                    I build scalable, high-performance, and responsive full
-                    stack web applications using
+                    A Frontend Developer passionate about building scalable,
+                    responsive, and high-performance web applications using
                     <FaReact
                       className={`${
                         darkMode ? style.reactIcon : style.reactIconLght
                       }`}
                     />
-                    React &<RiJavaLine className={style.javaIcon} />
-                    Java, applying innovative design principles and robust
-                    architecture.
+                    React and Redux. I combine clean UI design with efficient
+                    state management and backend exposure in
+                    <RiJavaLine className={style.javaIcon} />
+                    Java for seamless API integration.
                   </p>
                   <div className={style.buttonCont}>
                     <a
