@@ -21,7 +21,7 @@ const Home = () => {
       name: "GitHub",
       handleClick: () =>
         window.open(
-          "https://github.com/Ayan-webDEV?tab=repositories",
+          "https://github.com/Ayan-Frontend?tab=repositories",
           "_blank"
         ),
     },
