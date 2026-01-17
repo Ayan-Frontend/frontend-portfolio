@@ -16,7 +16,7 @@ const Contact = () => {
     {
       id: 1,
       icon: <FaGithubSquare />,
-      link: "https://github.com/Ayan-webDEV",
+      link: "https://github.com/Ayan-Frontend",
     },
     {
       id: 2,

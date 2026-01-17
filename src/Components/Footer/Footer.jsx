@@ -31,7 +31,7 @@ const Footer = () => {
       id: 1,
       name: "Github",
       icon: <FaGithub />,
-      link: "https://github.com/Ayan-webDEV",
+      link: "https://github.com/Ayan-Frontend",
     },
     {
       id: 2,
