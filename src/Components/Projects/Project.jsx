@@ -47,7 +47,7 @@ const Project = () => {
       stacks: [
         "HTML5",
         "CSS3",
-        "Tailwind",
+        "Tailwind CSS",
         "React.js",
         "Git & Github",
         "Vercel",
@@ -58,15 +58,22 @@ const Project = () => {
     {
       id: 3,
       image: null,
-      title: "E-Commerce",
+      title: "Resume Skill Matcher",
       description:
         "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-      stacks: [],
+      stacks: [
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "React.js",
+        "Git & Github",
+        "Vercel",
+      ],
     },
     {
       id: 4,
       image: null,
-      title: "Chat Web App",
+      title: "Smart Expense Visualizer",
       description:
         "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
       stacks: [],
@@ -87,7 +94,7 @@ const Project = () => {
               ⚡ Turning Ideas <br />
               <span style={{ color: "var(--text-color)" }}>
                 into
-              </span> <br /> Impactful Code
+              </span> <br /> Interfaces
             </h4>
             <h4
               className={`${style.projectHdsCommon} ${style.projectHdsTblet}`}
@@ -95,96 +102,62 @@ const Project = () => {
               ⚡ Turning Creative Ideas <br />
               <span style={{ color: "var(--text-color)" }}>
                 into
-              </span> <br /> Impactful Code
+              </span> <br /> Interfaces
             </h4>
             <h4 className={`${style.projectHdsCommon} ${style.projectHds}`}>
               ⚡ Turning Ideas{" "}
-              <span style={{ color: "var(--text-color)" }}>into</span> Impactful
-              Code
+              <span style={{ color: "var(--text-color)" }}>into</span>{" "}
+              Interfaces
             </h4>
             <article
               className={`${style.projectDetailsMob} ${style.projectDetailsCommon}`}
             >
-              Each project I build shows my passion for turning ideas into
-              real-world apps. As a 5th-semester CSE student, I focus on clean
-              design and modern tech. I create frontends with{" "}
-              <span className={style.projectDetailHighlights}>
-                React + Tailwind CSS{" "}
-              </span>
-              and backends using{" "}
-              <span className={style.projectDetailHighlights}>Java</span>. My
-              work involves{" "}
-              <span className={style.projectDetailHighlights}>MySQL</span> and{" "}
-              <span className={style.projectDetailHighlights}>responsive</span>,{" "}
-              <span>user-friendly</span> interfaces. Every project moves me
-              closer to becoming a skilled{" "}
-              <span className={style.projectDetailHighlights}>
-                full-stack developer
-              </span>
-              .
+              I turn ideas into real-world user experiences through clean and
+              responsive UI. I build modern frontends using{" "}
+              <span className="fw-semibold">React + Tailwind CSS</span>,
+              focusing on performance and reusable components. I also have
+              backend exposure in <span className="fw-semibold">Java</span> and
+              work with <span className="fw-semibold">APIs & MySQL</span>. I’m
+              constantly learning and improving to grow as a Frontend Developer.
             </article>
             <article
               className={`${style.projectDetailsTblet} ${style.projectDetailsCommon}`}
             >
-              Each project I build reflects my passion for turning ideas into
-              real-world solutions. As a 5th-semester Diploma CSE student, I
-              focus on clean design and strong logic. I develop frontends using{" "}
-              <span className={style.projectDetailHighlights}>React</span> and{" "}
-              <span className={style.projectDetailHighlights}>
-                Tailwind CSS
-              </span>
-              , and backends with{" "}
-              <span className={style.projectDetailHighlights}>Java</span>. My
-              projects also explore{" "}
-              <span className={style.projectDetailHighlights}>
-                MySQL data handling
-              </span>{" "}
-              and smooth{" "}
-              <span className={style.projectDetailHighlights}>
-                UI experiences
-              </span>
-              . Every task enhances my understanding of development and best
-              practices. Each project strengthens my path toward becoming a
-              skilled{" "}
-              <span className={style.projectDetailHighlights}>
-                full-stack developer
-              </span>
-              .
+              Each project I build reflects my passion for transforming ideas
+              into real-world user experiences. As a 5th-semester Diploma CSE
+              student, I focus on clean UI design and modern frontend
+              development. I build responsive interfaces using{" "}
+              <span className="fw-semibold">React + Tailwind CSS</span>, with
+              reusable components and smooth layouts. I also have backend
+              exposure in <span className="fw-semibold">Java</span> and work
+              with <span className="fw-semibold">APIs & MySQL</span> for
+              data-driven apps. I keep improving my code for scalability,
+              performance, and continuous growth as a Frontend Developer.
             </article>
             <article
               className={`${style.projectDetailsLpt} ${style.projectDetailsCommon} `}
             >
-              Each project I build reflects my passion for transforming concepts
-              into real-world applications. As a 5th-semester Diploma CSE
-              student, I focus on clean design, logical thinking, and modern
-              tech. I craft frontends with{" "}
-              <span className={style.projectDetailHighlights}>
-                React + Tailwind CSS
-              </span>{" "}
-              and backends using{" "}
-              <span className={style.projectDetailHighlights}>Java</span>. My
-              work explores{" "}
-              <span className={style.projectDetailHighlights}>
-                MySQL data handling
-              </span>{" "}
-              and{" "}
-              <span className={style.projectDetailHighlights}>
-                responsive, user-friendly
-              </span>{" "}
-              interfaces. I continuously refine my coding style to ensure{" "}
-              <span className={style.projectDetailHighlights}>
-                Extensiblility
-              </span>{" "}
-              and performance. Every project challenges me to learn new tools
-              and{" "}
-              <span className={style.projectDetailHighlights}>
-                problem-solving techniques
+              Each project I build reflects my passion for transforming ideas
+              into real-world{" "}
+              <span className="fw-semibold">user experiences</span>. As a
+              5th-semester Diploma CSE student, I focus on{" "}
+              <span className="fw-semibold">
+                clean UI design, logical thinking, and modern frontend
+                development
               </span>
-              . Each creation strengthens my journey toward becoming a skilled{" "}
-              <span className={style.projectDetailHighlights}>
-                full-stack developer
+              . I craft responsive, user-friendly interfaces using{" "}
+              <span className="fw-semibold">React + Tailwind CSS</span>, with
+              smooth layouts and reusable components. I also have backend
+              exposure in <span className="fw-semibold">Java</span> and work
+              with <span className="fw-semibold">APIs and MySQL</span> for
+              data-driven applications. I continuously refine my coding style to
+              ensure{" "}
+              <span className="fw-semibold">
+                scalability, extensibility, and performance
               </span>
-              .
+              . Every project pushes me to learn new tools and sharpen my
+              problem-solving skills, strengthening my journey toward becoming a
+              skilled <span className="fw-semibold">Frontend Developer</span>.
             </article>
           </div>
           <div className="my-5 pt-2 pb-lg-1">
@@ -232,71 +205,83 @@ const Project = () => {
                       </span>
                     ))}
                   </p>
-                  <div className="d-flex flex-wrap justify-content-between mt-2">
-                    <button
-                      className={style.viewProjectBtn}
-                      onClick={project.link}
-                    >
-                      View On Github
-                    </button>
-                    <button
-                      className={`${style.viewProjectBtn} ${style.viewSite}`}
-                      onClick={project.site}
-                    >
-                      view site
-                    </button>
+                  <div className="">
+                    <div className="d-flex flex-wrap justify-content-between mt-2">
+                      <button
+                        className={style.viewProjectBtn}
+                        onClick={project.link}
+                      >
+                        View On Github
+                      </button>
+                      <button
+                        className={`${style.viewProjectBtn} ${style.viewSite}`}
+                        onClick={project.site}
+                      >
+                        view site
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))}
             </div>
             <div>
               <p
-                className={`${style.projectsClosingLines} ${style.forBigScreen}`}
+                className={`${style.projectsClosingLines} ${style.forBigScreen}`} //projectsClosingHighlights
               >
-                Each project reflects my commitment to developing{" "}
-                <span className="d-block">
-                  <span className={style.projectsClosingHighlights}>
-                    Robust
-                  </span>
-                  ,{" "}
-                  <span className={style.projectsClosingHighlights}>
-                    Dynamic
-                  </span>
-                  , and{" "}
-                  <span className={style.projectsClosingHighlights}>
-                    Aesthetically Refined
-                  </span>
+                Each project reflects my commitment to building{" "}
+                <span className={style.projectsClosingHighlights}>
+                  responsive, dynamic, and visually refined frontend experiences
                 </span>{" "}
-                web solutions through{" "}
-                <span className={style.projectsClosingHighlights}>Clean</span>,{" "}
-                <span className={style.projectsClosingHighlights}>Modular</span>
-                , and Well-Architected code design.
+                through{" "}
+                <span className={style.projectsClosingHighlights}>
+                  clean, modular, and well-structured UI architecture
+                </span>
+                .
               </p>
               <p
                 className={`${style.projectsClosingLines} ${style.forSmallScreen}`}
               >
                 Crafting{" "}
-                <span className={style.projectsClosingHighlights}>Robust</span>,{" "}
-                <span className={style.projectsClosingHighlights}>Dynamic</span>
+                <span className={style.projectsClosingHighlights}>
+                  Responsive
+                </span>
+                ,{" "}
+                <span className={style.projectsClosingHighlights}>
+                  Interactive
+                </span>
                 , and{" "}
-                <span className={style.projectsClosingHighlights}>Refined</span>{" "}
-                web solutions with{" "}
+                <span className={style.projectsClosingHighlights}>
+                  Visually Refined
+                </span>{" "}
+                frontend experiences with{" "}
                 <span className={style.projectsClosingHighlights}>Clean</span>,{" "}
                 <span className={style.projectsClosingHighlights}>Modular</span>
-                , and Well-Structured code.
+                , and{" "}
+                <span className={style.projectsClosingHighlights}>
+                  Well-Structured
+                </span>{" "}
+                UI code.
               </p>
               <p
                 className={`${style.projectsClosingLines} ${style.forMediumScreen}`}
               >
                 Each project reflects my commitment to building{" "}
-                <span className={style.projectsClosingHighlights}>Robust</span>,{" "}
-                <span className={style.projectsClosingHighlights}>Dynamic</span>
+                <span className={style.projectsClosingHighlights}>
+                  Responsive
+                </span>
+                ,{" "}
+                <span className={style.projectsClosingHighlights}>
+                  Interactive
+                </span>
                 , and{" "}
-                <span className={style.projectsClosingHighlights}>Refined</span>{" "}
-                web solutions through{" "}
-                <span className={style.projectsClosingHighlights}>Clean</span>,{" "}
-                <span className={style.projectsClosingHighlights}>Modular</span>
-                , and Well-Structured code design.
+                <span className={style.projectsClosingHighlights}>Clean</span>{" "}
+                frontend experiences with{" "}
+                <span className={style.projectsClosingHighlights}>Modular</span>{" "}
+                and{" "}
+                <span className={style.projectsClosingHighlights}>
+                  Well-Structured
+                </span>{" "}
+                UI code.
               </p>
             </div>
             <div className="d-flex justify-content-center ">
