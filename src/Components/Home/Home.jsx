@@ -128,7 +128,7 @@ const Home = () => {
                       !darkMode && style.homelightIllustration
                     }`}
                     alt="Ayan – Full Stack Web Developer working on code illustration for personal portfolio"
-                    title="Ayan – Full Stack Web Developer"
+                    title="Ayan – Front-End Web Developer"
                   />
                 </div>
               </div>
