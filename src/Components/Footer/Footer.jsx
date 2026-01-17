@@ -79,7 +79,7 @@ const Footer = () => {
               <h3 className={style.footerStack}>
                 <span className="d-inline-block me-2">
                   {" "}
-                  Java Full-Stack{" "}
+                  Frontend Web{" "}
                   <span
                     className="d-inline-block me-2"
                     style={{ color: darkMode ? "#c0abffff" : "#1F3A93" }}
@@ -98,10 +98,12 @@ const Footer = () => {
                 </span>{" "}
                 <br />
                 <span className="d-inline-block ms-2">
-                  UI/UX{" "}
+                  {/* Java Backend <span>Exposure</span> */}
+                  Backend{" "}
                   <span style={{ color: darkMode ? "#ffa8d9ff" : "#008577ff" }}>
-                    Designer
-                  </span>
+                    Exposure
+                  </span>{" "}
+                  : Java | REST APIs | MySQL
                 </span>
               </h3>
             </div>
