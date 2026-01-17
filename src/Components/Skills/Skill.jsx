@@ -13,7 +13,7 @@ import {
   FaFigma,
   FaPython,
   FaJava,
-  FaDatabase,
+  FaGitSquare,
   FaGithub,
   FaComments,
   FaLightbulb,
@@ -24,18 +24,16 @@ import {
   FaUserFriends,
 } from "react-icons/fa";
 
-import {
-  SiRedux,
-  SiTailwindcss,
-  SiSpringboot,
-  SiApachemaven,
-} from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiIntellijidea } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
-import { DiRedis } from "react-icons/di";
-
-import { MdDevices, MdApi, MdPsychology } from "react-icons/md";
-import { FaVial } from "react-icons/fa6"; // from Font Awesome 6
+import { VscVscodeInsiders } from "react-icons/vsc";
+import {
+  MdDevices,
+  MdApi,
+  MdPsychology,
+  MdAddCircleOutline,
+} from "react-icons/md";
 import { useState } from "react";
 
 const Skills = () => {
@@ -57,10 +55,10 @@ const Skills = () => {
         "JavaScript",
         "React",
         "Redux Toolkit",
-        "Bootstrap",
         "Tailwind",
-        "UI/UX Design",
+        "Bootstrap",
         "Responsive Design",
+        "UI/UX Design",
       ],
       icons: [
         <FaHtml5 style={{ color: "#E44D26", fontSize: "21px" }} />,
@@ -68,53 +66,32 @@ const Skills = () => {
         <FaJsSquare style={{ color: "#F7DF1E", fontSize: "21px" }} />,
         <FaReact style={{ color: "#61DAFB", fontSize: "21px" }} />,
         <SiRedux style={{ color: "#764ABC", fontSize: "21px" }} />,
-        <FaBootstrap style={{ color: "#7952B3", fontSize: "21px" }} />,
         <SiTailwindcss style={{ color: "#38BDF8", fontSize: "21px" }} />,
-        <FaFigma style={{ color: "#F24E1E", fontSize: "21px" }} />,
+        <FaBootstrap style={{ color: "#7952B3", fontSize: "21px" }} />,
         <MdDevices style={{ color: "#00C4CC", fontSize: "21px" }} />,
+        <FaFigma style={{ color: "#F24E1E", fontSize: "21px" }} />,
       ],
       description: [
         "Defines web structure using semantic tags, media support, and accessibility features, forming the backbone of responsive and modern website development.",
         "Styles web pages with colors, layouts, transitions, and animations, ensuring responsive, visually appealing, and consistent designs across all devices.",
-        "",
+        "Adds interactivity and logic to websites, enabling dynamic content, event handling, and smooth user experiences through modern web frameworks.",
         "JavaScript library for building fast, component-based UIs with virtual DOM for efficient updates and reusable interface elements.",
         "Simplifies React state management with minimal boilerplate, predictable data flow, and enhanced debugging for large-scale web applications.",
-        "Front-end framework offering responsive grids, pre-built components, and utilities to quickly design clean, consistent, and mobile-friendly websites.",
         "Utility-first CSS framework enabling rapid UI development, easy customization, and responsive layouts with minimal custom styling effort.",
-        "Focuses on usability, accessibility, and aesthetics to create engaging, intuitive, and visually balanced user experiences across interfaces.",
+        "Front-end framework offering responsive grids, pre-built components, and utilities to quickly design clean, consistent, and mobile-friendly websites.",
         "Ensures websites adapt fluidly to all screen sizes using flexible grids, media queries, and mobile-first design principles.",
+        "Focuses on usability, accessibility, and aesthetics to create engaging, intuitive, and visually balanced user experiences across interfaces.",
       ],
-      status: [true, true, false, true, true, true, true, true, true],
     },
     {
       id: 2,
-      hedding: "Backend Tech",
+      hedding: "Backend Exposure",
       hdsIcon: <FaServer />,
-      stackList: [
-        "Java",
-        "Maven",
-        "Spring Boot",
-        "MySQL",
-        "PostgreSQL",
-        "API Integration",
-        "Git & GitHub",
-        "JUnit",
-        "Redis",
-      ],
+      stackList: ["Java", "REST APIs", "MySQL", "PostgreSQL"],
       icons: [
         <FaJava style={{ color: "#f89820", fontSize: "21px" }} />,
-        <SiApachemaven
-          style={{
-            color: "#D54D2C",
-            backgroundImage:
-              "linear-gradient(100deg, #FF9A3C, #FF5E7E, #B84CFF)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            display: "inline-flex",
-            fontSize: "21px",
-          }}
-        />,
-        <SiSpringboot style={{ color: "#6DB33F", fontSize: "21px" }} />,
+
+        <MdApi style={{ color: "#FF6F00", fontSize: "21px" }} />,
         <GrMysql style={{ color: "#4479A1", fontSize: "21px" }} />,
         <BiLogoPostgresql
           style={{
@@ -122,36 +99,24 @@ const Skills = () => {
             fontSize: "25px",
           }}
         />,
-        <MdApi style={{ color: "#FF6F00", fontSize: "21px" }} />,
-        <FaGithub
-          style={{ color: darkMode ? "#fefefe" : "#181717", fontSize: "21px" }}
-        />,
-        <FaVial style={{ color: "#25A162", fontSize: "21px" }} />,
-        <DiRedis style={{ color: "#D5362B", fontSize: "28px" }} />,
       ],
       description: [
-        "",
-        "Experienced with Maven for build automation, dependency management, project lifecycle handling, and Java application packaging.",
-        "Simplifies Java backend creation with auto-configuration, REST APIs, and production-ready tools for efficient, scalable applications.",
+        "Object-oriented language used for secure, scalable, and platform-independent backend and enterprise application development.",
+        "Connects software systems for seamless data exchange, automation, and enhanced functionality across multiple applications.",
         "Hands-on expertise in MySQL schema design, indexing strategies, integrity constraints, query optimization, administrative tools, and backend system connectivity.",
         "Experience with normalization, indexing, constraints, performance optimization, pgAdmin, and PostgreSQL integration with backend applications systems projects.",
-        "Connects software systems for seamless data exchange, automation, and enhanced functionality across multiple applications.",
-        "Version control tools enabling collaboration, change tracking, branching, and efficient code management in team environments.",
-        "Java testing framework ensuring code reliability by automating unit tests and detecting bugs early in development.",
-        "Experienced with Redis for in-memory data storage, caching, session management, pub/sub messaging, and high-performance applications.",
       ],
-      status: [false, true, true, true, true, true, true, true, true],
     },
     {
       id: 3,
-      hedding: "Programming",
+      hedding: "Tools",
       hdsIcon: <FaCode />,
-      stackList: ["JavaScript", "Java", "Python", "SQL"],
+      stackList: ["Git", "Github", "VSCode", "IntelliJ"],
       icons: [
-        <FaJsSquare style={{ color: "#F7DF1E", fontSize: "21px" }} />,
-        <FaJava style={{ color: "#f89820", fontSize: "21px" }} />,
-        <FaPython style={{ color: "#3776AB", fontSize: "21px" }} />,
-        <FaDatabase style={{ color: "#4479A1", fontSize: "21px" }} />,
+        <FaGitSquare style={{ color: "#E84D31", fontSize: "21px" }} />,
+        <FaGithub style={{ fontSize: "21px" }} />,
+        <VscVscodeInsiders style={{ color: "#419de7", fontSize: "21px" }} />,
+        <SiIntellijidea style={{ fontSize: "21px" }} />,
       ],
       description: [
         "Adds interactivity and logic to websites, enabling dynamic content, event handling, and smooth user experiences through modern web frameworks.",
@@ -159,7 +124,13 @@ const Skills = () => {
         "Simple, versatile language learned for logic building, OOP, and modules to enhance programming adaptability and versatility.",
         "Relational database system managing structured data efficiently with secure storage, retrieval, and reliable query performance.",
       ],
-      status: [true, true, true, true],
+      additional: {
+        title: "Additional Tech",
+        hdsIcon: <MdAddCircleOutline />,
+        logo: [<FaPython style={{ color: "#4683bb" }} />],
+        stack: ["Python"],
+        desc: ["python desc"],
+      },
     },
     {
       id: 4,
@@ -211,48 +182,49 @@ const Skills = () => {
               >
                 scalable
               </span>{" "}
-              digital experiences.
+              digital experiences
             </h4>
             <article className={style.skillAboutMob}>
-              I build complete web solutions with clean design, performance, and
-              maintainable code. I craft responsive UIs and scalable, secure
-              backends, combining precision, learning, and problem-solving.
-              Every project reflects my passion for quality and continuous
-              improvement.
+              I build frontend-driven web solutions with clean design, high
+              performance, and maintainable code. I craft responsive,
+              user-friendly interfaces with smooth interactions, combining
+              precision, learning, and problem-solving. Every project reflects
+              my passion for quality, usability, and continuous improvement
             </article>
             <article className={style.skillAboutNoneMob}>
-              I specialize in building complete, end-to-end web solutions with a
-              focus on clean design, performance, and maintainable code. On the
-              frontend, I craft responsive, user-friendly interfaces for
-              seamless experiences across devices. On the backend, I ensure
-              scalability, security, and efficient data handling for reliable
-              performance. Every technology I use reflects my dedication to
-              learning, precision, and problem-solving — from modular Java logic
-              to dynamic, interactive web interfaces.
+              I specialize in building modern, frontend-driven web applications
+              with a strong focus on clean UI design, performance optimization,
+              and maintainable component architecture. On the frontend, I craft
+              responsive, accessible, and user-friendly interfaces that deliver
+              seamless experiences across all devices and screen sizes. I
+              emphasize efficient state management, smooth interactions, and
+              reusable components to ensure long-term scalability. Every
+              technology I use reflects my dedication to learning, precision,
+              and problem-solving—from dynamic React components to visually
+              engaging, interactive user interfaces
             </article>
             <h4 className={style.slog}>
-              I don’t just code{" "}
+              I don’t just build interfaces I create frontend experiences that{" "}
               <span
                 className="fw-bold"
                 style={{ color: "var(--accent-secondary)" }}
               >
-                features
-              </span>{" "}
-              — I build solutions that work{" "}
-              <span
-                className="fw-bold"
-                style={{ color: "var(--accent-secondary)" }}
-              >
-                beautifully
-              </span>{" "}
-              and perform{" "}
-              <span
-                className="fw-bold"
-                style={{ color: "var(--accent-secondary)" }}
-              >
-                effortlessly
+                look great
               </span>
-              .
+              <span>,</span>{" "}
+              <span
+                className="fw-bold"
+                style={{ color: "var(--accent-secondary)" }}
+              >
+                feel smooth
+              </span>
+              <span>, and</span>{" "}
+              <span
+                className="fw-bold"
+                style={{ color: "var(--accent-secondary)" }}
+              >
+                perform effortlessly
+              </span>
             </h4>
           </div>
           <h1
@@ -289,7 +261,10 @@ const Skills = () => {
                 </h3>
                 <ul className="mt-3 pt-1 list-unstyled">
                   {skill.stackList.map((list, idx) => (
-                    <div key={idx} style={{ position: "relative" }}>
+                    <div
+                      key={`${skill.id}-${list}-${idx}`}
+                      style={{ position: "relative" }}
+                    >
                       <div className={style.skillNameCont}>
                         <li
                           className={`${style.stackSkills} ${
@@ -307,13 +282,13 @@ const Skills = () => {
                           <span
                             className={`me-3 ${
                               list === "PostgreSQL" ? style.postgresql : ""
-                            } ${list === "Redis" ? style.redis : ""}`}
+                            }`}
                           >
                             {skill.icons[idx]}
                           </span>
                           {list}
-                          {console.log(list)}
-                          {skill.id !== 4 && skill.status[idx] && (
+                          {/* {console.log(list)} */}
+                          {skill.id !== 4 && (
                             <IoMdArrowDropdown
                               className={`ms-2 ${style.dropDown} ${
                                 hoveredItem.skillId === skill.id &&
@@ -327,8 +302,7 @@ const Skills = () => {
                       </div>
                       {hoveredItem.skillId === skill.id &&
                         hoveredItem.index === idx &&
-                        skill.id !== 4 &&
-                        skill.status?.[idx] === true && (
+                        skill.description?.[idx] && (
                           <div
                             style={{
                               left: skill.id === 1 && idx === 6 && "45%",
@@ -348,16 +322,9 @@ const Skills = () => {
                                   : "1.5px solid #e1e1e1ff",
                                 paddingBottom: "7px",
                               }}
-                              className={`mb-2 ${
-                                skill.id === 2 && idx === 4
-                                  ? darkMode
-                                    ? style.detailsHdsDark
-                                    : style.detailsHdsLight
-                                  : ""
-                              }`}
                             >
                               <span className="me-2 pe-1">
-                                {skill.icons[idx]}
+                                {skill.icons?.[idx]}
                               </span>
                               <span
                                 className={`${style.overlayHds} ${
@@ -370,13 +337,49 @@ const Skills = () => {
                               </span>
                             </h6>
                             <p className="m-0 pt-1 fw-medium">
-                              {skill.description[idx]}
+                              {skill.description?.[idx]}
                             </p>
                           </div>
                         )}
                     </div>
                   ))}
                 </ul>
+                {skill.id === 3 && skill.additional?.title && (
+                  <div className="mt-4 pt-3">
+                    <div className="d-flex align-items-center">
+                      <span
+                        style={{
+                          fontSize: "27px",
+                          color: "var(--accent-primary)",
+                        }}
+                        className="me-2 mb-1"
+                      >
+                        {skill.additional.hdsIcon}
+                      </span>
+
+                      <h4
+                        className="m-0"
+                        style={{ fontSize: "25px", fontWeight: "600" }}
+                      >
+                        {skill.additional.title}
+                      </h4>
+                    </div>
+
+                    <div className="mt-2">
+                      <div className="d-flex align-items-center">
+                        <p
+                          className="m-0 fw-medium"
+                          style={{ fontSize: "17px" }}
+                        >
+                          <span className="me-3" style={{ fontSize: "21px" }}>
+                            {skill.additional.logo?.[0]}
+                          </span>
+                          <span>{skill.additional.stack?.[0]}</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -390,7 +393,7 @@ const Skills = () => {
               <strong style={{ color: "var(--accent-primary)" }}>
                 user-focused
               </strong>{" "}
-              web applications <br /> using{" "}
+              Frontend applications <br /> using{" "}
               <strong
                 style={{ color: "var(--accent-primary)", lineHeight: "35px" }}
               >
