@@ -14,7 +14,10 @@ const Project = () => {
   const { darkMode } = useTheme();
 
   const portfolio = () => {
-    window.open("https://github.com/Ayan-webDEV/Portfolio", "_Blank");
+    window.open(
+      "https://github.com/Ayan-Frontend/frontend-portfolio",
+      "_Blank"
+    );
   };
   const myntra = () => {
     window.open("https://github.com/Ayan-webDEV/myntra-replica", "_Blank");
@@ -290,7 +293,7 @@ const Project = () => {
                   className={style.seeAllProjectBtn}
                   onClick={() => {
                     window.open(
-                      "https://github.com/Ayan-webDEV?tab=repositories",
+                      "https://github.com/Ayan-Frontend?tab=repositories",
                       "_Blank"
                     );
                   }}
