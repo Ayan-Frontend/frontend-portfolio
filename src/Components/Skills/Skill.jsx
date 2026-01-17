@@ -345,7 +345,7 @@ const Skills = () => {
                   ))}
                 </ul>
                 {skill.id === 3 && skill.additional?.title && (
-                  <div className="mt-4 pt-3">
+                  <div className="mt-4 pt-3 pb-4 pb-sm-0">
                     <div className="d-flex align-items-center">
                       <span
                         style={{
@@ -383,7 +383,7 @@ const Skills = () => {
               </div>
             ))}
           </div>
-          <div className="pt-3 mt-2 pt-sm-2 pb-4 pb-sm-0">
+          <div className="pt-3 mt-3 pt-sm-2 pb-4 pb-sm-0">
             <h3 className="text-center mt-3 mt-sm-4 px-md-4 fs-4">
               Building{" "}
               <strong style={{ color: "var(--accent-primary)" }}>
